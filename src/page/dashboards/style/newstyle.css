@@ -1,0 +1,62 @@
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    font-size: medium;
+    width: 80%;
+    margin-left: 20px;
+  }
+  
+  #customers td {
+    border: 0px solid #ddd;
+    padding: 8px;
+  }
+  
+  #customers tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  #customers tr:hover {
+    background-color: #ddd;
+  }
+  
+  .lonlat {
+    width: 40%;
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 10px;
+    z-index: 0;
+    text-align: center;
+  
+  }
+  
+  .lonlat div p{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+  }
+  
+  body{
+    overflow: hidden;
+  }
+  
+  .arrowbut1{
+    background-color: #fff;
+    border: 0px solid black;
+    text-align: center;
+  }
+  
+  
+  .arrowbut2{
+    background-color: #fff;
+    border: 0px solid black;
+    text-align: center;
+  }

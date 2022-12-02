@@ -1,0 +1,25 @@
+footer#site-footer {
+    position: absolute;
+    bottom: 0;
+    background: #223874;
+    color: #ffffff;
+    width: 100%;
+    z-index: 999;
+    right: 0;
+    left: 0;
+    display: block!important;
+    margin-top: 0;
+}
+
+footer#site-footer section.horizontal-footer-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 2.38rem 2rem;
+}
+
+footer#site-footer #footer-social-buttons {
+    justify-self: flex-end;
+    margin-left: auto;
+}
